@@ -47,13 +47,6 @@ public class Card {
         this.image = "playingcards/" + r.toString().toLowerCase() + "_of_" + s.toString().toLowerCase() + ".png";
     }
 
-//    public static void main(String[] args) {
-//        Ranks r = Ranks.ACE;
-//        Suits s = Suits.SPADES;
-//        Card c = new Card(s,r);
-//        System.out.println(c.getImage().toString());
-//    }
-
     public Suits getSuit() {
         return suit;
     }
