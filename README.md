@@ -1,5 +1,8 @@
 # Blackjack
 
+## Overview
+This was an individual project (that's why the package is called individual) where I had to design a game using a GUI
+
 ## Objective
 Player attempts to beat the dealer by getting a count as close to 21 as possible, without going over 21.
 
