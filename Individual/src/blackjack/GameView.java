@@ -33,14 +33,14 @@ public class GameView extends JFrame {
             firstTwoCards.setIcon(new ImageIcon(c.getImage()));
             firstTwoCards.setBounds(plrX,400,100,145); //player start position
             panel.add(firstTwoCards);
-            plrX += 75; //Every new card, move the x over by 75
+            plrX += 100; //Every new card, move the x over by 75
         }
 
         nextCards = new JLabel[10]; //Placeholders for the incoming cards for player
         for (int i = 0; i < nextCards.length; i++) {
             nextCards[i] = new JLabel();
             nextCards[i].setBounds(plrX,400,100,145);
-            plrX+= 75;//For Every new card, move the x over by 75
+            plrX+= 100;//For Every new card, move the x over by 75
             panel.add(nextCards[i]); //Add placeholders to panel but don't assign a card image
         }
 
@@ -88,6 +88,7 @@ public class GameView extends JFrame {
         background.setBounds(0,0,1280,720);
         panel.add(background);
 
+        setResizable(false);
         setLocationRelativeTo(null);
     }
 

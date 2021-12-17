@@ -43,6 +43,7 @@ public class Outcome extends JFrame  implements ActionListener {
 
         setPreferredSize(new Dimension(600,250));
         pack();
+        setResizable(false);
         setLocationRelativeTo(null);
     }
 
